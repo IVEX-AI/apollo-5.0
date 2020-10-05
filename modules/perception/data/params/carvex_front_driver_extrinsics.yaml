@@ -3,15 +3,15 @@ header:
   stamp:
     secs: 0
     nsecs: 0
-  frame_id: front_6mm
-child_frame_id: front_12mm
+  frame_id: carvex_front_middle
+child_frame_id: carvex_front_driver
 transform:
   translation:
-    x: 0.0
+    x: -0.2
     y: 0.0
     z: 0.0
   rotation:
-    x: 0.0348994967025007
+    x: 0.0
     y: 0.0
     z: 0.0
-    w: 0.9993908270190957
+    w: 0.0

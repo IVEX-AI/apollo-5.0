@@ -5,10 +5,10 @@ module_config {
     components {
       class_name : "ImageDecompressComponent"
       config {
-        name : "camera_front_6mm_decompress"
-        config_file_path : "/apollo/modules/drivers/tools/image_decompress/conf/camera_front_6mm.pb.txt"
+        name : "carvex_front_middle_decompress"
+        config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_front_middle.pb.txt"
         readers {
-          channel: "/apollo/sensor/camera/front_6mm/image/compressed"
+          channel: "/apollo/sensor/camera/carvex_front_middle/image/compressed"
           pending_queue_size: 10
         }
       }
@@ -17,14 +17,51 @@ module_config {
     components {
       class_name : "ImageDecompressComponent"
       config {
-        name : "camera_front_12mm_decompress"
-        config_file_path : "/apollo/modules/drivers/tools/image_decompress/conf/camera_front_12mm.pb.txt"
+        name : "carvex_front_driver_decompress"
+        config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_front_driver.pb.txt"
         readers {
-          channel: "/apollo/sensor/camera/front_12mm/image/compressed"
+          channel: "/apollo/sensor/camera/carvex_front_driver/image/compressed"
           pending_queue_size: 10
         }
       }
     }
+
+    components {
+      class_name : "ImageDecompressComponent"
+      config {
+        name : "carvex_front_left_decompress"
+        config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_front_left.pb.txt"
+        readers {
+          channel: "/apollo/sensor/camera/carvex_front_left/image/compressed"
+          pending_queue_size: 10
+        }
+      }
+    }
+
+    components {
+      class_name : "ImageDecompressComponent"
+      config {
+        name : "carvex_front_right_decompress"
+        config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_front_right.pb.txt"
+        readers {
+          channel: "/apollo/sensor/camera/carvex_front_right/image/compressed"
+          pending_queue_size: 10
+        }
+      }
+    }
+
+    components {
+      class_name : "ImageDecompressComponent"
+      config {
+        name : "carvex_rear_decompress"
+        config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_rear.pb.txt"
+        readers {
+          channel: "/apollo/sensor/camera/carvex_rear/image/compressed"
+          pending_queue_size: 10
+        }
+      }
+    }
+
 
     # components {
     #   class_name : "ImageDecompressComponent"
@@ -62,18 +99,6 @@ module_config {
     #   }
     # }
 
-    components {
-      class_name : "ImageDecompressComponent"
-      config {
-        name : "camera_left_fisheye_decompress"
-        config_file_path : "/apollo/modules/drivers/tools/image_decompress/conf/camera_left_fisheye.pb.txt"
-        readers {
-          channel: "/apollo/sensor/camera/left_fisheye/image/compressed"
-          pending_queue_size: 10
-        }
-      }
-    }
-
     # components {
     #   class_name : "ImageDecompressComponent"
     #   config {
@@ -98,28 +123,5 @@ module_config {
     #   }
     # }
 
-    components {
-      class_name : "ImageDecompressComponent"
-      config {
-        name : "camera_right_fisheye_decompress"
-        config_file_path : "/apollo/modules/drivers/tools/image_decompress/conf/camera_right_fisheye.pb.txt"
-        readers {
-          channel: "/apollo/sensor/camera/right_fisheye/image/compressed"
-          pending_queue_size: 10
-        }
-      }
-    }
-
-    components {
-      class_name : "ImageDecompressComponent"
-      config {
-        name : "camera_rear_6mm_decompress"
-        config_file_path : "/apollo/modules/drivers/tools/image_decompress/conf/camera_rear_6mm.pb.txt"
-        readers {
-          channel: "/apollo/sensor/camera/rear_6mm/image/compressed"
-          pending_queue_size: 10
-        }
-      }
-    }
 }
 

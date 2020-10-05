@@ -12,3 +12,17 @@
 --use_navigation_mode=false
 
 --map_dir=/apollo/modules/map/data/san_francisco
+
+--map_dir=/apollo/modules/map/data/borregas_ave
+
+--map_dir=/apollo/modules/map/data/autonomous_stuff
+
+--map_dir=/apollo/modules/map/data/borregas_ave
+
+--map_dir=/apollo/modules/map/data/autonomous_stuff
+
+--map_dir=/apollo/modules/map/data/borregas_ave
+
+--map_dir=/apollo/modules/map/data/autonomous_stuff
+
+--map_dir=/apollo/modules/map/data/borregas_ave
