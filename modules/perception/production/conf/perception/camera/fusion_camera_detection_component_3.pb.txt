@@ -1,8 +1,8 @@
-camera_names: "carvex_front_middle,carvex_front_driver"
-input_camera_channel_names : "/apollo/sensor/camera/carvex_front_middle/image,/apollo/sensor/camera/carvex_front_driver/image"
+camera_names: "carvex_front_middle,carvex_front_left"
+input_camera_channel_names : "/apollo/sensor/camera/carvex_front_middle/image,/apollo/sensor/camera/carvex_front_left/image"
 timestamp_offset : 0.0
 camera_obstacle_perception_conf_dir : "/apollo/modules/perception/production/conf/perception/camera"
-camera_obstacle_perception_conf_file : "obstacle.pt"
+camera_obstacle_perception_conf_file : "obstacle1.pt"
 frame_capacity : 20
 image_channel_num : 3
 enable_undistortion : false

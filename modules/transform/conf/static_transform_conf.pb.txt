@@ -15,35 +15,35 @@ extrinsic_file {
 extrinsic_file {
     frame_id: "velodyne128"
     child_frame_id: "carvex_front_right"
-    file_path: "/apollo/modules/perception/data/carvex_params/carvex_front_right_extrinsics.yaml"
+    file_path: "/apollo/modules/perception/data/params/carvex_front_right_extrinsics.yaml"
     enable: true
 }
 
 extrinsic_file {
     frame_id: "velodyne128"
     child_frame_id: "carvex_front_left"
-    file_path: "/apollo/modules/perception/data/carvex_params/carvex_front_left_extrinsics.yaml"
+    file_path: "/apollo/modules/perception/data/params/carvex_front_left_extrinsics.yaml"
     enable: true
 }
 
 extrinsic_file {
     frame_id: "velodyne128"
     child_frame_id: "carvex_front_middle"
-    file_path: "/apollo/modules/perception/data/carvex_params/carvex_front_middle_extrinsics.yaml"
+    file_path: "/apollo/modules/perception/data/params/carvex_front_middle_extrinsics.yaml"
     enable: true
 }
 
 extrinsic_file {
     frame_id: "velodyne128"
     child_frame_id: "carvex_front_driver"
-    file_path: "/apollo/modules/perception/data/carvex_params/carvex_front_driver_extrinsics.yaml"
+    file_path: "/apollo/modules/perception/data/params/carvex_front_driver_extrinsics.yaml"
     enable: true
 }
 
 extrinsic_file {
     frame_id: "velodyne128"
     child_frame_id: "carvex_rear"
-    file_path: "/apollo/modules/perception/data/carvex_params/carvex_rear_extrinsics.yaml"
+    file_path: "/apollo/modules/perception/data/params/carvex_rear_extrinsics.yaml"
     enable: true
 }
 

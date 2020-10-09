@@ -8,4 +8,31 @@ module_config {
       flag_file_path: "/apollo/modules/perception/production/conf/perception/perception_common.flag"
     }
   }
+
+  components {
+    class_name : "FusionCameraDetectionComponent"
+    config {
+      name: "FusionCameraComponent1"
+      config_file_path: "/apollo/modules/perception/production/conf/perception/camera/fusion_camera_detection_component_1.pb.txt"
+      flag_file_path: "/apollo/modules/perception/production/conf/perception/perception_common.flag"
+    }
+  }
+
+  components {
+    class_name : "FusionCameraDetectionComponent"
+    config {
+      name: "FusionCameraComponent2"
+      config_file_path: "/apollo/modules/perception/production/conf/perception/camera/fusion_camera_detection_component_2.pb.txt"
+      flag_file_path: "/apollo/modules/perception/production/conf/perception/perception_common.flag"
+    }
+  }
+
+   components {
+    class_name : "FusionCameraDetectionComponent"
+    config {
+      name: "FusionCameraComponent3"
+      config_file_path: "/apollo/modules/perception/production/conf/perception/camera/fusion_camera_detection_component_3.pb.txt"
+      flag_file_path: "/apollo/modules/perception/production/conf/perception/perception_common.flag"
+    }
+  }
 }

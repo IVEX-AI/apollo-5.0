@@ -14,7 +14,7 @@ detector_param {
     root_dir : "/apollo/modules/perception/production/data/perception/camera/models/yolo_obstacle_detector"
     config_file : "config.pt"
   }
-  camera_name : "carvex_front_driver"
+  camera_name : "carvex_front_left"
 }
 
 tracker_param {
