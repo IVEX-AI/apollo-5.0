@@ -27,31 +27,31 @@ sensor_meta {
 }
 
 sensor_meta {
-    name: "carvex_front_middle"
+    name: "front_6mm"
     type: MONOCULAR_CAMERA
     orientation: FRONT
 }
 
 sensor_meta {
-    name: "carvex_front_driver"
+    name: "front_12mm"
     type: MONOCULAR_CAMERA
     orientation: FRONT
 }
 
 sensor_meta {
-    name: "carvex_front_left"
+    name: "left_front"
     type: MONOCULAR_CAMERA
     orientation: FRONT
 }
 
 sensor_meta {
-    name: "carvex_front_right"
+    name: "right_front"
     type: MONOCULAR_CAMERA
     orientation: FRONT
 }
 
 sensor_meta {
-    name: "carvex_rear"
+    name: "rear_6mm"
     type: MONOCULAR_CAMERA
     orientation: REAR
 }

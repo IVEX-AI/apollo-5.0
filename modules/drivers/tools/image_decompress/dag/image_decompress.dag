@@ -8,7 +8,7 @@ module_config {
         name : "carvex_front_middle_decompress"
         config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_front_middle.pb.txt"
         readers {
-          channel: "/apollo/sensor/camera/carvex_front_middle/image/compressed"
+          channel: "/apollo/sensor/camera/front_6mm/image/compressed"
           pending_queue_size: 10
         }
       }
@@ -20,7 +20,7 @@ module_config {
         name : "carvex_front_driver_decompress"
         config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_front_driver.pb.txt"
         readers {
-          channel: "/apollo/sensor/camera/carvex_front_driver/image/compressed"
+          channel: "/apollo/sensor/camera/front_12mm/image/compressed"
           pending_queue_size: 10
         }
       }
@@ -32,7 +32,7 @@ module_config {
         name : "carvex_front_left_decompress"
         config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_front_left.pb.txt"
         readers {
-          channel: "/apollo/sensor/camera/carvex_front_left/image/compressed"
+          channel: "/apollo/sensor/camera/left_front/image/compressed"
           pending_queue_size: 10
         }
       }
@@ -44,7 +44,7 @@ module_config {
         name : "carvex_front_right_decompress"
         config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_front_right.pb.txt"
         readers {
-          channel: "/apollo/sensor/camera/carvex_front_right/image/compressed"
+          channel: "/apollo/sensor/camera/right_front/image/compressed"
           pending_queue_size: 10
         }
       }
@@ -56,7 +56,7 @@ module_config {
         name : "carvex_rear_decompress"
         config_file_path : "/apollo/modules/drivers/tools/image_decompress/carvex_conf/carvex_rear.pb.txt"
         readers {
-          channel: "/apollo/sensor/camera/carvex_rear/image/compressed"
+          channel: "/apollo/sensor/camera/rear_6mm/image/compressed"
           pending_queue_size: 10
         }
       }

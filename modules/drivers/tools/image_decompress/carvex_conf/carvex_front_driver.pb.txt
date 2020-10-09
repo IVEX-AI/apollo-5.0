@@ -1,1 +1,1 @@
-channel_name: "/apollo/sensor/camera/carvex_front_driver/image"
+channel_name: "/apollo/sensor/camera/front_12mm/image"

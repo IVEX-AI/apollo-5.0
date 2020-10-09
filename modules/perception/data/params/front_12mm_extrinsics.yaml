@@ -3,15 +3,15 @@ header:
   stamp:
     secs: 0
     nsecs: 0
-  frame_id: front_6mm
+  frame_id: velodyne128
 child_frame_id: front_12mm
 transform:
   translation:
-    x: 0.0
-    y: 0.0
-    z: 0.0
+    x: -0.2
+    y: 0.523
+    z: -0.403
   rotation:
-    x: 0.0348994967025007
-    y: 0.0
-    z: 0.0
-    w: 0.9993908270190957
+    x: -0.5
+    y: 0.5
+    z: -0.5
+    w: 0.5

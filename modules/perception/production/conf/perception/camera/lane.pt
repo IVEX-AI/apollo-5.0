@@ -6,7 +6,7 @@ lane_param {
       root_dir : "/apollo/modules/perception/production/data/perception/camera/models/lane_detector/"
       config_file : "config_darkSCNN.pt"
     }
-    camera_name : "carvex_rear"
+    camera_name : "right_front"
   }
   lane_postprocessor_param {
       name : "DarkSCNNLanePostprocessor"

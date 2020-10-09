@@ -4,14 +4,14 @@ header:
     secs: 0
     nsecs: 0
   frame_id: velodyne128
-child_frame_id: carvex_front_left
+child_frame_id: right_front
 transform:
   translation:
-    x: -0.4875
+    x: 0.4875
     y: 0.443998
     z: -0.403
   rotation:
-    x: -0.653
-    y: 0.271
+    x: -0.271
+    y: 0.653
     z: -0.653
     w: 0.271
